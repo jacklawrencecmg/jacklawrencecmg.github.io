@@ -2,8 +2,8 @@ import React, { createContext, useContext, useEffect, useMemo, useState } from "
 import { createClient } from "@supabase/supabase-js";
 
 // ✅ Put these in a .env file later if you want. For now, paste your real values here.
-const supabaseUrl = "https://YOUR_PROJECT_REF.supabase.co";
-const supabaseAnonKey = "YOUR_SUPABASE_ANON_KEY";
+const supabaseUrl = "https://iiacrfwwnyxyqvepiuai.supabase.co";
+const supabaseAnonKey = "sb_publishable_c7pazG6algNQFIsTBMUeug_u33MGfvu";
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
